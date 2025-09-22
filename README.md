@@ -17,14 +17,14 @@ Python 3.X, PostgreSQL
 
 ## Notes
 1. You need to adjust code before you run the script
-   -- task1_load_data script.py :
+   --- task1_load_data script.py :
 
-  # Load csv
+  a.Load csv
   csv_events = "path/CRMEvents.csv"
   csv_logs = "path/CRMCallCenterLogs.csv"
   csv_loan = "path/LuxuryLoanPortfolio.csv"
 
-  # Connecction to  PostgreSQL
+  b. Connecction to  PostgreSQL
   db_user = "postgres" #your_username
   db_pass = "password" #your_pass
   db_host = "localhost"
@@ -32,10 +32,10 @@ Python 3.X, PostgreSQL
   db_name = "task1" #anything
 
 
-  --task2_dash.py :
-  # Load data & rename columns
+  ---task2_dash.py :
+  Load data & rename columns
   csv_loan    = pd.read_csv("path/LuxuryLoanPortfolio.csv", delimiter=",")
 
-  --queries.sql :
+  -- queries.sql :
   Run query on PostgreSQL
   
